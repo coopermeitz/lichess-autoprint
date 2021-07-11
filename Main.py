@@ -7,4 +7,3 @@ from _authentication import AuthenticationManager
 session = AuthenticationManager().get_session()
 client = berserk.Client(session)
 print(client.account.get())
-print(client.studies)
