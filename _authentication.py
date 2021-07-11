@@ -7,13 +7,13 @@ class AuthenticationManager():
     def __init__(self):
         """[summary]
         """
-        self.session = OAuth2Session()
+        self.oauth_session = OAuth2Session()
 
     
-    def get_session(self):
-        """Getter function for the session variable.
+    def get_oauth_session(self):
+        """Getter function for the Oauth session variable.
 
         :return: session for the API access
         :rtype: OAuth2Session
         """
-        return self.session
+        return self.oauth_session
